@@ -11,7 +11,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg'],
+      includeAssets: ['favicon.png', 'logo-header.png'],
       manifest: {
         name: 'IMPI Job Cards',
         short_name: 'Job Cards',

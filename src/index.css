@@ -37,10 +37,23 @@ body {
   padding: 4px 4px 20px;
 }
 
+.brandbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-logo {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
 .brandbar .name {
   font-weight: 700;
   font-size: 1.05rem;
   letter-spacing: 0.02em;
+  color: var(--ink);
 }
 .brandbar .name span { color: var(--impi-red); }
 

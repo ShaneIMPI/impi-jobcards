@@ -93,7 +93,10 @@ export default function Home({ profile }) {
   return (
     <div className="screen">
       <div className="brandbar">
-        <div className="name">IMPI <span>Job Cards</span></div>
+        <div className="brandbar-left">
+          <img src={`${import.meta.env.BASE_URL}logo-header.png`} alt="Amandla Protection Services" className="brand-logo" />
+          <div className="name">Job <span>Cards</span></div>
+        </div>
         <button className="link" onClick={handleLogout}>Sign out of app</button>
       </div>
 

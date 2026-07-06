@@ -14,7 +14,7 @@ export default defineConfig({
       includeAssets: ['favicon.png', 'logo-header.png'],
       manifest: {
         name: 'IMPI Job Cards',
-        short_name: 'Job Cards',
+        short_name: 'IMPI Job Cards',
         description: 'IMPI daily job card sign-in / sign-out system',
         theme_color: '#DE1819',
         background_color: '#ffffff',

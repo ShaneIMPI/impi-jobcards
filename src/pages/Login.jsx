@@ -31,7 +31,7 @@ export default function Login() {
       <div className="brandbar">
         <div className="brandbar-left">
           <img src={`${import.meta.env.BASE_URL}logo-header.png`} alt="Amandla Protection Services" className="brand-logo" />
-          <div className="name">Job <span>Cards</span></div>
+          <div className="name">IMPI <span>Job Cards</span></div>
         </div>
       </div>
 
